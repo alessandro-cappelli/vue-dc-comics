@@ -1,0 +1,30 @@
+@import './variables.scss';
+/*----------------
+RESET
+-----------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------
+GLOBALS
+-----------------*/
+
+
+
+/*----------------
+CONTAINER
+-----------------*/
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*----------------
+TYPO
+-----------------*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
