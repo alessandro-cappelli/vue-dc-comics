@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-      <section>
+      <section class="section-header">
           <div>
               <img src="../assets/img/dc-logo.png" alt="">
           </div>
 
-          <div>
+          <nav class="menu">
               <ul>
                   <li><a href="#">CHARACTERS</a></li>
                   <li><a href="#">COMICS</a></li>
@@ -18,7 +18,7 @@
                   <li><a href="#">NEWS</a></li>
                   <li><a href="#">SHOP</a></li>
               </ul>
-          </div>
+          </nav>
 
       </section>
   </div>
@@ -31,5 +31,27 @@ export default {
 </script>
 
 <style>
+.section-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/* lista menu */
+.menu{
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
 
 </style>
