@@ -60,6 +60,7 @@ export default {
     .card-link{
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .img-icon{

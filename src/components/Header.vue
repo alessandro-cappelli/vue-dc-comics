@@ -35,7 +35,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 /* lista menu */
@@ -52,6 +51,10 @@ li{
 li a{
     text-decoration: none;
     color: black;
+}
+
+li a:hover{
+    color: #0282F9;
 }
 
 </style>
