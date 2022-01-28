@@ -3,7 +3,7 @@
     <Header />
     <Main />
     <Footer />
-
+    <Footer2 />
   </div>
 </template>
 
@@ -11,6 +11,8 @@
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
+import Footer2 from './components/Footer2.vue'
+
 
 
 export default {
@@ -19,6 +21,7 @@ export default {
     Header,
     Main,
     Footer,
+    Footer2
   }
 }
 </script>
