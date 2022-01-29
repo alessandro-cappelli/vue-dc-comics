@@ -5,7 +5,7 @@
                 <button>SIGN-UP NOW!</button>
             </div>
 
-            <div>
+            <div class="container-icon">
                 <ul>
                     <li><a href="#">FOLLOW US</a></li>
                     <li><a href="#"><img src="../assets/img/footer-facebook.png"></a></li>
@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .section-footer4{
     display: flex;
     align-items: center;
@@ -34,4 +34,18 @@ export default {
     height: 80px;
     background-color: #303030;
 }
+
+.container-icon{
+    display: flex;
+    
+}
+li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: gray;
+}
+
 </style>

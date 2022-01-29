@@ -53,6 +53,10 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="container-img-logo">
+                <img src="../assets/img/dc-logo-bg.png" alt="">
+            </div>
         </div>
     </section>
 </template>
@@ -63,11 +67,44 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
  .container-footer3{
      display: flex;
      background-image: url(../assets/img/footer-bg.jpg);
      color: white;
+     background-repeat: no-repeat;
+     background-size: cover;
+     justify-content: space-between;
+     height: 270px;
  }
+.container-column{
+    display: flex;
+}
+ .container-prima-colonna, .container-seconda-colonna,
+ .container-terza-colonna{
+     display: inline-block;
+     margin-left: 5px;
+ }
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.container-img-logo{
+    height: 100%;
+
+}
+
+img{
+    height: 100%;
+}
 </style>
 

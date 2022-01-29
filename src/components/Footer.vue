@@ -47,7 +47,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .container-footer{
         background-color: #0282F9;
         display: flex;
